@@ -19,6 +19,7 @@ int main() {
     // 3. Create a variable called box2 of the Box structure type
     
     // int box2Height, box2Width, box2Length;
+  
     int totalVolume;
     
     // 4. Input the height, width, lenght of box1 and box2
@@ -48,5 +49,8 @@ int main() {
 // Implement the functions here
 int volume(int height, int width, int length)
 {
-  return height*width*length;
+  int volume;
+  volume=height*width*length;
+  
+  return volume;
 }
